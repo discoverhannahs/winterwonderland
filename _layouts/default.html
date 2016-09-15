@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
+</head>
+<body class="site__body">
+  <header class="site__header">
+    <div class="row">
+      <div class="large-8 large-centered columns">
+        <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" alt="" class="site__logo">
+      </div>
+    </div>
+  </header>
+  <main class="site__main">
+    <div class="row">
+      <div class="large-12 large-centered columns">
+        <div class="panel text-center">
+          <h1 class="header">More information <br> coming soon</h1>
+          <h3>For the first time ever, the Edwardian Quad at Hannahs is being transformed into a Winter Wonderland, with a 15m x 20m skating rink, a giant 50 foot snowman (with a bouncy castle in his stomach!), pop-up gift and food stalls, musical Christmas light shows and even regular snow showers.</h3>
+          <hr>
+          <h4><strong>There will be a whole month of special events, so watch this space for more information coming very soon…</strong></h4>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site__footer">
+    <div class="row">
+      <div class="large-12 columns text-center">
+        <a href="http://www.discoverhannahs.org/events"><img src="{{ "/img/hannahs.png" | prepend: site.baseurl }}" alt="" class="hannahs-logo"></a>
+        <hr>
+        <p class="text-center text-white"><small>&copy; Dame Hannah Rogers Trust 2014. Dame Hannah Roger’s School, registered charity no. 306948. Dame Hannah Rogers Trust, a limited company registered in England and Wales with number 5512987, and registered as a charity with number 1148882, and whose registered office address is at Woodland Road, Ivybridge, Devon PL21 9HQ is the sole trustee of Dame Hannah Roger’s School.</small></p>
+      </div>
+    </div>
+  </footer>
+  <script src="{{ "/js/vendor/jquery.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/vendor/what-input.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/vendor/foundation.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>

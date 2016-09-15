@@ -1,0 +1,49 @@
+.site__body{
+  background: url(../img/background-snow.png) #8ccbc3;
+  background-size: 512px 512px;
+  background-repeat: repeat;
+}
+
+.site__header{
+  padding-top: 1em;
+}
+
+.site__main{
+  padding: 2em;
+}
+
+.site__footer{
+  padding-top: 75em;
+  padding-bottom: 2em;
+  background: url(../img/footer-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.site__logo {
+  width: 100%;
+  height: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.header {
+  font-family: 'Wendy One', sans-serif;
+  color: #E6362E;
+  line-height: 0.95;
+  margin-bottom: 0.5em;
+}
+
+.panel {
+  padding: 2em;
+  border: 2em solid #E6362E;
+  background: white;
+}
+
+.hannahs-logo{
+  width: 10em;
+  height: auto;
+}
