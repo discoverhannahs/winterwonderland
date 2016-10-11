@@ -1,0 +1,13 @@
+<div data-sticky-container>
+  <div class="sticky" data-sticky data-options="marginTop:0;" style="width:100%">
+    <nav class="nav">
+      <div class="menu-centered">
+        <ul class="vertical medium-horizontal menu">
+          {% for section in site.sections %}
+            <li class="nav__item"><a class="nav__link" href="#{{section.title}}">{{section.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>

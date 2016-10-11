@@ -1,0 +1,123 @@
+.site{
+}
+
+.site__body{
+  background-color: #E6362E;
+}
+
+.site__header{
+  padding: 0em;
+  //background-color: $color-red;
+}
+
+.site__main{
+  padding: 1em 0 0 0;
+  background-color: lighten(#F8EDC9, 5%);
+}
+
+.site__footer{
+  padding: 1em;
+}
+
+.site__logo {
+  width: 100%;
+  height: auto;
+}
+
+.site__section{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  &--activity{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    &__text{
+      padding-top: 2em;
+    }
+  }
+  &--red {
+    background: $color-red;
+    h1,h2,h3,h4,h5,h6, a, p {
+      color: white;
+    }
+  }
+}
+
+.nav {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%;
+  background: $color-red;
+  &__menu{
+
+  }
+  &__item{
+    padding: 0.5em;
+  }
+  &__link{
+    font-weight: bolder;
+    color: $color-white;
+    &:hover{
+      color: $color-white;
+      text-decoration-color: white;
+      text-decoration: underline;
+      //border-bottom: 10px solid $color-red;
+    }
+  }
+}
+
+
+.text-white {
+  color: white;
+}
+
+.title--section {
+  font-family: 'Wendy One', sans-serif;
+  color: #E6362E;
+  //line-height: 0.95;
+  //margin-bottom: 0;
+  font-size: 7em;
+  @include breakpoint(small){
+    font-size: 2em;
+  }
+  @include breakpoint(medium){
+    font-size: 6em;
+  }
+}
+
+.heading{
+  font-family: 'Wendy One', sans-serif;
+  color: $color-red;
+  &--section{}
+  &--event{
+    margin-bottom: 0;
+  }
+}
+.subheading{
+  font-family: 'Wendy One', sans-serif;
+  color: $color-green;
+  &--section{}
+  &--event{
+    margin-bottom: 0;
+  }
+}
+
+.panel {
+  padding: 2em;
+  border: 2em solid #E6362E;
+  background: white;
+}
+
+.hannahs-logo{
+  width: 10em;
+  height: auto;
+}
+
+.img--activity {
+  width: 100%;
+  height: auto;
+}
+
+.img--tree{
+  width: 10em;
+  height: auto;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js site" lang="en" dir="ltr">
+  {% include site__head.html %}
+<body class="site__body">
+  {% include site__header.html %}
+  <main class="site__main">
+    <div class="row">
+      <div class="large-12 columns">
+        <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" alt="" class="site__logo">
+      </div>
+    </div>
+    {% for section in site.sections %}
+      {% if section.title == 'About our charity' or section.title == 'Sign up' %}
+      <div class="site__section text-center">
+        <div class="row">
+          <div class="large-12 columns">
+      {% else %}
+      <div class="site__section">
+        <div class="row">
+          <div class="large-12 columns">
+      {% endif %}
+            <div class="text-center">
+              {% unless section.title == 'About' %}
+              <img src="{{ "/img/tree.png" | prepend: site.baseurl }}" alt="" class="img--tree">
+              {% endunless %}
+              <h1 class="title--section" id="{{section.title}}">{{ section.title }}</h1>
+              {% if section.intro %}
+              <h2 class="subheading subheading--event">{{ section.intro }}</h2>
+              {% endif %}
+            </div>
+            {{ section.content }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </main>
+  {% include site__footer.html %}
+  {% include site__scripts.html %}
+  {% include site__analytics.html %}
+</body>
+</html>

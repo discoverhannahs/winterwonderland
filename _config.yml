@@ -17,9 +17,7 @@
 title: Hannah's Winter Wonderland
 email: enquiries@discoverhannahs.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  For the first time ever, the Edwardian Quad at Hannahs is being transformed into a Winter Wonderland, with a 12m x 15m skating rink, a giant 50 foot snowman (with a bouncy castle in his stomach!), pop-up gift and food stalls, musical Christmas light shows and even regular snow showers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.winterwonderland.org.uk" # the base hostname & protocol for your site
 twitter_username: discoverhannahs
@@ -27,3 +25,11 @@ github_username:  discoverhannahs
 
 # Build settings
 markdown: kramdown
+
+collections:
+  sections:
+    output: false
+  activities:
+    output: false
+  events:
+    output: false
