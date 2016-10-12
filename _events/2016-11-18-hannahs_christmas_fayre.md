@@ -1,7 +1,7 @@
 ---
 title: Hannahs Christmas Fayre
 date: 2016-11-18
-date-end: 2016-12-19
+date-end: 2016-11-19
 booking:
 published: true
 ---
