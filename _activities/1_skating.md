@@ -2,6 +2,7 @@
 title: Skating Rink
 intro: Join us for a festive skate in the stunning setting of the Edwardian Quad at Hannahs.
 image: rink.png
+published: true
 ---
 
 Our large synthetic rink is environmentally-friendly and accessible for all abilities. Expect a real Christmas atmosphere with music, stalls and hot chocolate, mulled wine and sweet treats available. Remember to wrap-up warm and wear gloves and nice thick socks.
